@@ -1,11 +1,5 @@
 const request = require("request");
 
-// add additional data
-// update forecase string to include new data
-// commit your changes
-// push the changes to github and deploy
-// test your work
-
 const getWeather = (lat, lng, callback) => {
   const url =
     "http://api.weatherstack.com/current?access_key=4aaca9aa417790bd8522fe002b66bd5d&query=" +
